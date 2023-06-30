@@ -7,6 +7,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+This fork adds some opinionated stuff for new projects:
+
+- local development with DDEV
+- add Tailwind CSS
+- fix Vite asset bundling in the DDEV environment
+
+**How to use**
+
+If you don't have DDEV installed, please follow these guides:
+
+1. [Install Docker](https://ddev.readthedocs.io/en/stable/users/install/docker-installation/)
+2. [Install DDEV](https://ddev.readthedocs.io/en/stable/users/install/ddev-installation/)
+
+After that, setup your new project:
+
+1. Create a new repository from this template on GitHub.
+2. Clone your repository.
+3. (Optional) Change the project name in `.ddev/config.yaml`.
+4. Run `ddev start` in the project root.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
